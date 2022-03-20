@@ -1,0 +1,342 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-03-20T21:46:53.112Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2570510200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Conduit.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "users should be able to create articles",
+        "description": "",
+        "id": "articles-functionality;users-should-be-able-to-create-articles",
+        "after": [
+          {
+            "result": {
+              "duration": 722357900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Conduit.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10465069100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user logged in as \"merv\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"merv\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.Conduit.step_definitions.ArticleStepDef.user_logged_in_as(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3064608100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click to  \"New Article\" module",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"New Article\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.Conduit.step_definitions.ArticleStepDef.user_click_to_module(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8599770500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should be able to create articles",
+            "match": {
+              "location": "com.Conduit.step_definitions.ArticleStepDef.user_should_be_able_to_create_articles()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Articles Functionality",
+    "description": "",
+    "id": "articles-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Article.feature",
+    "tags": [
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-03-20T21:47:18.638Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1575276000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Conduit.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "User should login with valid credentials ibrahim",
+        "description": "",
+        "id": "login-functionality;user-should-login-with-valid-credentials-ibrahim",
+        "after": [
+          {
+            "result": {
+              "duration": 929262000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Conduit.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1272094200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on the login page",
+            "match": {
+              "location": "com.Conduit.step_definitions.LoginStepDef.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2125819800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click to  Sign in button",
+            "match": {
+              "location": "com.Conduit.step_definitions.LoginStepDef.user_click_to_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3227451600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User fills the \"mervim@gmail.com\" box and Email box  and \"merv123\" box and click to sign in button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mervim@gmail.com\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"merv123\"",
+                  "offset": 57
+                }
+              ],
+              "location": "com.Conduit.step_definitions.LoginStepDef.fill_the_box_and_Email_box_and_box_and_click_to_sign_in_button(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7966100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should be able to see \"Home — Conduit\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Home — Conduit\"",
+                  "offset": 27
+                }
+              ],
+              "location": "com.Conduit.step_definitions.LoginStepDef.user_should_be_able_to_see_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Login Functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": [
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2022-03-20T21:47:27.792Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1442390700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Conduit.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User should create new subscription",
+        "description": "",
+        "id": "sign-up-functionality;user-should-create-new-subscription",
+        "after": [
+          {
+            "result": {
+              "duration": 724359000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Conduit.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2106816700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on the login page",
+            "match": {
+              "location": "com.Conduit.step_definitions.LoginStepDef.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2130737100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click to  Sign Up Button",
+            "match": {
+              "location": "com.Conduit.step_definitions.LoginStepDef.user_click_to_Sing_Up_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6367038700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User fill the username box, Email box  and Password box and click sign up button",
+            "match": {
+              "location": "com.Conduit.step_definitions.LoginStepDef.fill_the_username_box_Email_box_and_Password_box_and_click_sign_up_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5996300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should be able to see \"Home — Conduit\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Home — Conduit\"",
+                  "offset": 27
+                }
+              ],
+              "location": "com.Conduit.step_definitions.LoginStepDef.user_should_be_able_to_see_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Sign up Functionality",
+    "description": "",
+    "id": "sign-up-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Signup.feature",
+    "tags": [
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
